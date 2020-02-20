@@ -1,0 +1,11 @@
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\bin\Debug\Pol.exe.config
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\bin\Debug\Pol.exe
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\bin\Debug\Pol.pdb
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.csprojAssemblyReference.cache
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.Properties.Resources.resources
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.csproj.GenerateResource.cache
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.csproj.CoreCompileInputs.cache
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.exe
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.pdb
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.Form1.resources
+C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.Form2.resources
