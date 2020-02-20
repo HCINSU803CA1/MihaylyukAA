@@ -17,45 +17,35 @@ namespace Pol
             InitializeComponent();
         }
         private double[] Array;
-       
 
-        private char getSign(char character)
+
+        private char GetSign(char character)
         {
-            char ch = ' ';
-            switch (character)
-            {
-                case '+':
-                    {
-                        ch = '+';
-                        break;
-                    }
-                case '-':
-                    {
-                        ch = '-';
-                        break;
-                    }
-                case '*':
-                    {
-                        ch = '*';
-                        break;
 
-                    }
-                case '/':
-                    {
-                        ch = '/';
-                        break;
-                    }
-                default:
-                    {
-                        break;
-                    }
-            }
-            return ch;
+                if (character == '+')
+                {
+                    return '+';
+                }
+                if (character == '*')
+                {
+                    return '*';
+                }
+                if (character == '/')
+                {
+                    return '/';
+                }
+                if (character == '-')
+                {
+                    return '-';
+                }
+
+            return character;
         }
 
         private void TextBox1_TextChanged(object sender, EventArgs e)
         {
             string first = textBox1.Text;
+            char returnedSign = ' ';
 
             if ((!textBox1.Text.Equals("")) && (!textBox1.Text.EndsWith("=")))
             {
@@ -63,13 +53,15 @@ namespace Pol
                 first.Replace(" ", "");
 
                 var s = first;
-                char returnedSign = ' ';
+                
                 foreach (var sign in s)
                 {
-                   returnedSign = getSign(sign);
+                   returnedSign = GetSign(sign);
                 }
 
-                var stringArray = s.Split(returnedSign);
+                var stringArray = s.Split(new char[] { '+', '-', '*', '/'});
+               // Console.WriteLine(returnedSign);
+                
                 foreach (var text in stringArray)
                 {
                     if (!text.Equals(""))
@@ -89,16 +81,22 @@ namespace Pol
                         }
 
                         Console.WriteLine(Array[0]);
+                            
+                        
                     }
                 }
             }
-            if (first.EndsWith("="))
-            {
-                double Result = Array[0] + Array[1];
-                label1.Text=(Convert.ToString(Result));
-                Console.WriteLine(Array[0] + Array[1]);
-            }
+                 Console.WriteLine("ret"+ returnedSign);
+                if (first.EndsWith("="))
+                {
+                   
+                    double Result = Array[0] - Array[1];
+                    label1.Text = (Convert.ToString(Result));
+
+                    //Console.WriteLine(Array[0] + Array[1]);
+                }
+            
+            
         }
     }
 }
-
