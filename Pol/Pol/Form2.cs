@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -68,17 +68,15 @@ namespace Pol
                 {
                    returnedSign = getSign(sign);
                 }
-                if (returnedSign.Equals(' '))
-                {
-                    return;
-                }
+
                 var stringArray = s.Split(returnedSign);
                 foreach (var text in stringArray)
                 {
-                    if (!text.Equals(null))
+                    if (!text.Equals(""))
                     {
                         
-                        var number = int.Parse(text.Replace("=", ""));
+                        var number = int.Parse(text);
+                        Console.WriteLine(number);
 
                         //Array.Append(number);
                         if (Array[0] == 0)
@@ -103,3 +101,4 @@ namespace Pol
         }
     }
 }
+
