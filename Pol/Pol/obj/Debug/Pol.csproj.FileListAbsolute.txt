@@ -9,3 +9,14 @@ C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.exe
 C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.pdb
 C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.Form1.resources
 C:\Users\MihaylyukAA\source\repos\Pol\Pol\obj\Debug\Pol.Form2.resources
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\bin\Debug\Pol.exe.config
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\bin\Debug\Pol.exe
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\bin\Debug\Pol.pdb
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.csprojAssemblyReference.cache
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.Form1.resources
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.Form2.resources
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.Properties.Resources.resources
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.csproj.GenerateResource.cache
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.csproj.CoreCompileInputs.cache
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.exe
+C:\Users\alex\Source\Repos\HCINSU803CA1\MihaylyukAA\Pol\Pol\obj\Debug\Pol.pdb
