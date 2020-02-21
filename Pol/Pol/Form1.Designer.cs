@@ -32,7 +32,6 @@
             this.cancel = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.License = new System.Windows.Forms.CheckBox();
-            this.text = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // next
@@ -75,20 +74,11 @@
             this.License.Text = "Я согласен на продажу почки";
             this.License.UseVisualStyleBackColor = true;
             // 
-            // text
-            // 
-            this.text.AutoSize = true;
-            this.text.Location = new System.Drawing.Point(12, 76);
-            this.text.Name = "text";
-            this.text.Size = new System.Drawing.Size(0, 13);
-            this.text.TabIndex = 4;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(443, 359);
-            this.Controls.Add(this.text);
             this.Controls.Add(this.License);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cancel);
@@ -107,7 +97,6 @@
         private System.Windows.Forms.Button cancel;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.CheckBox License;
-        private System.Windows.Forms.Label text;
     }
 }
 
