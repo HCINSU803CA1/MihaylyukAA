@@ -9,38 +9,27 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        
-        <ListView ItemsSource="{Binding BooksList}" IsSynchronizedWithCurrentItem="True">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <Border BorderBrush="Bisque" BorderThickness="1" Margin="10">
-                        <StackPanel Margin="10">
-                            <TextBlock Text="{Binding Title}" FontWeight="Bold"/>
-                            <TextBlock Text="{Binding Author}" />
-                            <StackPanel Orientation="Horizontal">
-                                <TextBlock Text="Осталось:" />
-                                <TextBlock Text="{Binding Count, Mode=TwoWay}" FontWeight="Bold" Margin="10,0"/>
-                                <TextBlock Text="шт" />
-                            </StackPanel>
+
+        <ContentControl Grid.Column="0" >
+        <ContentControl.ContentTemplate>
+            <DataTemplate>
+                <Border BorderBrush="Bisque" BorderThickness="1" Margin="10">
+                    <StackPanel Margin="10">
+                            <TextBox MaxLines="10" Text="{Binding InputText}" Margin="10" Height="291" />
+                            
                         </StackPanel>
-                    </Border>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
-        
-        <ContentControl Grid.Column="1" Content="{Binding BooksList}">
+                </Border>
+            </DataTemplate>
+        </ContentControl.ContentTemplate>
+        </ContentControl>
+    
+        <ContentControl Grid.Column="1" >
             <ContentControl.ContentTemplate>
                 <DataTemplate>
                     <Border BorderBrush="Bisque" BorderThickness="1" Margin="10">
                         <StackPanel Margin="10">
-                            <TextBlock Text="Перевод:" />
-                            <TextBox Text="{Binding OutputText, UpdateSourceTrigger=PropertyChanged}" Margin="0,0,0,10"/>
 
-                            
-
-                            <StackPanel Orientation="Horizontal">
-                                
-                            </StackPanel>
+                            <TextBox Text="{Binding OutputText}" Margin="10" Height="291" />
                         </StackPanel>
                     </Border>
                 </DataTemplate>

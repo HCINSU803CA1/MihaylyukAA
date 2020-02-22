@@ -9,13 +9,13 @@ namespace SampleMVVM.Models
     class Book
     {
         public string OutputText { get; set; }
-        public string Author { get; set; }
+        public string InputText { get; set; }
         public int Count { get; set; }
 
-        public Book(string title, string author, int count)
+        public Book(string InputText, string OutputText, int count)
         {
-            this.OutputText = title;
-            this.Author = author;
+            this.OutputText = InputText;
+            this.InputText =OutputText;
             this.Count = count;
         }
 
