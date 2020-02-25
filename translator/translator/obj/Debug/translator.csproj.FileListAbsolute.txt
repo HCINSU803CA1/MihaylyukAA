@@ -1,5 +1,0 @@
-C:\Users\MihaylyukAA\source\repos\translator\translator\obj\Debug\translator.csprojAssemblyReference.cache
-C:\Users\MihaylyukAA\source\repos\translator\translator\obj\Debug\Views\MainWindow.g.cs
-C:\Users\MihaylyukAA\source\repos\translator\translator\obj\Debug\App.g.cs
-C:\Users\MihaylyukAA\source\repos\translator\translator\obj\Debug\translator_MarkupCompile.cache
-C:\Users\MihaylyukAA\source\repos\translator\translator\obj\Debug\translator_MarkupCompile.lref
